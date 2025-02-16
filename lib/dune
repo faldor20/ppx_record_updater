@@ -1,0 +1,10 @@
+(library
+ (name ppx_record_updater)
+ (public_name ppx_record_updater)
+ (kind ppx_rewriter)
+ (libraries ppxlib ppxlib.metaquot)
+ (preprocess
+  (pps
+   ppxlib.metaquot
+   ; metaquot.ppx
+   )))

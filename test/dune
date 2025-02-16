@@ -1,0 +1,2 @@
+(test
+ (name test_ppx_record_updater))

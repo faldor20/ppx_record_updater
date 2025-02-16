@@ -1,0 +1,5 @@
+(executable
+ (name demo)
+ (public_name demo)
+ (preprocess
+  (pps ppx_record_updater ppx_deriving.show)))
