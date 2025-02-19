@@ -5,20 +5,20 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github faldor20/ppx_record_updater))
 
-(authors "Author Name <author@example.com>")
+(authors "Eli Dowling <eli.jambu@gmail.com>")
 
-(maintainers "Maintainer Name <maintainer@example.com>")
+(maintainers "Eli Dowling <eli.jambu@gmail.com>")
 
-(license LICENSE)
+(license MIT)
 
-(documentation https://url/to/documentation)
+(documentation https://github.com/faldor20/ppx_record_updater)
 
 (package
  (name ppx_record_updater)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "A PPX deriver that generates an update function and type for dynamically performing partial updates on a record.")
+ (description "A PPX deriver that generates an update function and type for dynamically performing partial updates on a record.")
  (depends ocaml ppxlib ppx_deriving)
  (tags (ppx)))
 
