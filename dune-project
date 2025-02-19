@@ -1,4 +1,4 @@
-(lang dune 3.18)
+(lang dune 3.16)
 
 (name ppx_record_updater)
 
